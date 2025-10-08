@@ -1,0 +1,27 @@
+# Python / Django 
+__pycache__/ 
+*.pyc 
+*.pyo 
+*.pyd 
+env/ 
+venv/ 
+*.sqlite3 
+ 
+# Node / Frontend 
+node_modules/ 
+dist/ 
+.env 
+ 
+# Docker 
+*.log 
+*.pid 
+docker-compose.override.yml 
+ 
+# WordPress / CMS 
+cms/wp-content/uploads/ 
+cms/wp-content/cache/ 
+cms/wp-content/backups/ 
+ 
+# VSCode / IDE 
+.vscode/ 
+.idea/
