@@ -6,22 +6,38 @@ __pycache__/
 env/ 
 venv/ 
 *.sqlite3 
- 
+*.log
+
 # Node / Frontend 
 node_modules/ 
 dist/ 
 .env 
- 
+frontend/node_modules/
+
+# Build
+dist/
+build/
+frontend/dist/
+
 # Docker 
 *.log 
 *.pid 
 docker-compose.override.yml 
- 
+.env
+.env.*
+.dockerignore
+
 # WordPress / CMS 
 cms/wp-content/uploads/ 
 cms/wp-content/cache/ 
 cms/wp-content/backups/ 
- 
+
 # VSCode / IDE 
 .vscode/ 
 .idea/
+.DS_Store
+
+# Cache
+.cache/
+.vite/
+pytest_cache/
